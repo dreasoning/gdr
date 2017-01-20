@@ -1,0 +1,9 @@
+This is common Emacs key operation examples.
+
+# Goto-line: How to jump to line N?
+M-g g
+
+# Rectangle region: How to select a rectangle region?
+First select the region. The end is set a character beyond the right bottom corner.
+M-x kill-rectangle
+M-x yank-rectangle
